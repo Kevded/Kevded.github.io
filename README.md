@@ -1,18 +1,18 @@
-# Contribution
+## Contribution
 
 [Accept PayPal payment in functions firebase](https://github.com/firebase/functions-samples/tree/master/paypal)
 
 
-# Progressive Web App
+## Progressive Web App
 [www.promoguadeloupe.com](https://www.promoguadeloupe.com) :notes:
 
-# Geo-App
+## Geo-App
 [geo-app.now.sh](https://https://geo-app.now.sh) :globe_with_meridians:
 
 or 
 
 [github.com/Kevded/geo-app](https://github.com/Kevded/geo-app)
 
-# CV SEO friendly with Firebase Functions & Angular Universal
+## CV SEO friendly with Firebase Functions & Angular Universal
 [deddy.me](https://deddy.me) :mag:
 
