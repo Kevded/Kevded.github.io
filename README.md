@@ -7,6 +7,12 @@
 [www.promoguadeloupe.com](https://www.promoguadeloupe.com) :notes:
 
 # Geo-App
-[geo-app.now.sh](https://https://geo-app.now.sh) 
+[geo-app.now.sh](https://https://geo-app.now.sh) :globe_with_meridians:
 
-or [github.com/Kevded/geo-app](https://github.com/Kevded/geo-app)
+or 
+
+[github.com/Kevded/geo-app](https://github.com/Kevded/geo-app)
+
+# CV SEO friendly with Firebase Functions & Angular Universal
+[deddy.me](https://deddy.me) :mag:
+
