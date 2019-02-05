@@ -16,3 +16,8 @@ or
 ## CV SEO friendly with Firebase Functions & Angular Universal
 [deddy.me](https://deddy.me) :mag:
 
+## Gitbook
+[gitbook.deddy.me](https://gitbook.deddy.me)
+
+## Serverless API
+[fullstackiot.com](http://fullstackiot.com)
