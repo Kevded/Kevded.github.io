@@ -7,7 +7,7 @@
 [www.promoguadeloupe.com](https://www.promoguadeloupe.com) :notes:
 
 ## Geo-App
-[geo-app.now.sh](https://https://geo-app.now.sh) :globe_with_meridians:
+[geo-app.now.sh](https://geo-app.now.sh) :globe_with_meridians:
 
 or 
 
