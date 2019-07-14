@@ -19,5 +19,9 @@ or
 ## Gitbook
 [gitbook.deddy.me](https://gitbook.deddy.me)
 
+## Twitter
+
+[https://twitter.com/kevded_](@kevded_)
+
 ## Serverless API
 [fullstackiot.com](http://fullstackiot.com)
