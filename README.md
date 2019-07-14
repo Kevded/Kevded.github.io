@@ -21,7 +21,7 @@ or
 
 ## Twitter
 
-[https://twitter.com/kevded_](@kevded_)
+[@kevded_](https://twitter.com/kevded_)
 
 ## Serverless API
 [fullstackiot.com](http://fullstackiot.com)
