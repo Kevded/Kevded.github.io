@@ -19,9 +19,15 @@ export interface User {
   tag: 'app-root'
 })
 export class AppRoot {
-
+  
+  postService: PostService;
+  
   @State() user: User;
 
+  constructor(){
+    this.postService = new PostService();  
+  }
+  
   signOut = () => {
       this.user = null;
     }
