@@ -30,7 +30,7 @@ exports.auth = functions.https.onRequest((req, res) => {
   const credentials = Buffer.from(base64Credentials, 'base64').toString('ascii');
   const [username, password] = credentials.split(':');
   if (username === "demo" && password === "demo") {
-      console.log(user, "successfully logged in");
+      console.log(username, "successfully logged in");
       res.status(200).setHeader("Content-Type", "text/plain");
       // rediriger vers l'application
       // etant donnee qu'on est sur une single page application
@@ -38,7 +38,7 @@ exports.auth = functions.https.onRequest((req, res) => {
       // l'application dans le navigateur
       return res.send("ok");
   }
-  console.log(user, "failed to logged in with password: ", password);
+  console.log(username, "failed to logged in with password: ", password);
   res.status(401).setHeader("WWW-Authenticate", "Basic");
   return res.send("Unauthorized");
 });
