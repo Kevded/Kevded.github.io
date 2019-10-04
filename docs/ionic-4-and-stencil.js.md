@@ -4,7 +4,7 @@ description: Dev tips in Stencil.js
 
 # Ionic 4 & Stencil.js
 
-## Use Ionic 4 Controller in Stencil.js
+## Use Ionic 4 Ion Toast Controller in Stencil.js
 
 ```
  @Prop({ connect: 'ion-toast-controller' }) toastCtrl: HTMLIonToastControllerElement;
