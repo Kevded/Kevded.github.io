@@ -13,7 +13,7 @@ or
 
 [github.com/Kevded/geo-app](https://github.com/Kevded/geo-app)
 
-## CV SEO friendly with Firebase Functions & Angular Universal
+## CV 
 [deddy.me](https://deddy.me) :mag:
 
 ## Gitbook
@@ -22,6 +22,3 @@ or
 ## Twitter
 
 [@kevded_](https://twitter.com/kevded_)
-
-## Serverless API
-[fullstackiot.com](http://fullstackiot.com)
