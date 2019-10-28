@@ -1,8 +1,8 @@
 ---
 description: >-
   Attendre que la callback enregistrer dans onAuthStateChanged soit appelé avant
-  d'initialiser l'application. Permet d'éviter le déclenchement de routeGuard
-  alors que la variable User = null
+  d'initialiser l'application. Permet d'éviter le déclenchement trop tôt d'une
+  routeGuard redirection si User non connecté.
 ---
 
 # Firebase Auth onAuthStateChanged avec Stenciljs
