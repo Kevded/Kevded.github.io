@@ -7,6 +7,8 @@ description: >-
 
 # Firebase Auth onAuthStateChanged avec Stenciljs
 
+Date publication : 28/10/2019 
+
 Solution pour éviter qu'au rechargement de la page que l'utilisateur soit rediriger vers la page de connexion. Alors que l'utilisateur est encore connecté. On attends juste que la callback soit au moins appelé une fois pour vérifier que l'utilisateur est bien à null ou présent. 
 
 {% code-tabs %}
