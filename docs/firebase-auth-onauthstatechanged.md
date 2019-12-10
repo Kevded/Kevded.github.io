@@ -15,8 +15,7 @@ Solution pour éviter qu'au rechargement de la page que l'utilisateur soit redir
 
 Exemple d'implémentation avec Stenciljs. La documentation de Stencil suggère de retourner une Promise dans la méthode componentWillLoad\(\) afin d'être sur que les données soit chargées avant le rendu du composant.
 
-{% code-tabs %}
-{% code-tabs-item title="app-root.tsx" %}
+{% code title="app-root.tsx" %}
 ```typescript
 import { Component, State, h, Prop, } from '@stencil/core';
 import { User } from '../models/user';
@@ -68,11 +67,9 @@ export class AppRoot {
 
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="utils.tsx" %}
+{% code title="utils.tsx" %}
 ```typescript
 import { h } from "@stencil/core";
 
@@ -95,8 +92,7 @@ export const PrivateRoute = ({ component, ...props}: { [key: string]: any}) => {
     );
   }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 
 
