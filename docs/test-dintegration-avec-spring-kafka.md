@@ -651,11 +651,11 @@ Github sources :
 
 * [github.com/Kevded/integration-test-spring-kafka-with-embedded-kafka-consumer-and-producer](https://github.com/Kevded/integration-test-spring-kafka-with-embedded-kafka-consumer-and-producer)
 
-Example officiel spring-kafka : 
+Exemple officiel spring-kafka : 
 
 * [github.com/spring-projects/spring-kafka](https://github.com/spring-projects/spring-kafka)
 
-Pour rédiger des tests d'intégration vous pouvez jeter un oeil aussi à :
+Pour rédiger des tests d'intégration vous pouvez jeter un œil à :
 
 * [github.com/authorjapps/zerocode](https://github.com/authorjapps/zerocode)
 * [github.com/authorjapps/zerocode/tree/master/kafka-testing](https://github.com/authorjapps/zerocode/tree/master/kafka-testing)
