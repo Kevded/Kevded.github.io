@@ -6,4 +6,5 @@
 * [Authentification HTTP Basic Header avec Firebase functions](authentification-basic.md)
 * [Installer TwixTel réseau avec un partage de fichier dans le cloud](installer-twixtel-reseau-avec-un-partage-de-fichier-dans-le-cloud.md)
 * [Firebase Auth onAuthStateChanged avec Stenciljs](firebase-auth-onauthstatechanged.md)
+* [Test d'intégration avec Spring Boot et Kafka](test-dintegration-avec-spring-kafka.md)
 
