@@ -365,6 +365,10 @@ public interface ExampleRepository extends CrudRepository<ExampleEntity, Long> {
 
 ### Services Consumer et Producer
 
+Le `ConsumerService` écoute sur le topic `TOPIC_EXAMPLE` et s'attend à recevoir un objet `ExampleDTO`_._ Chaque `ExampleDTO` reçu sera d'abord converti en `ExampleEntity` puis sauvegarder dans la base de données.
+
+Le `ProducerService` sert à publier des objets `ExampleDTO` sur le topic `TOPIC_EXAMPLE_EXTERNE`.
+
 {% tabs %}
 {% tab title="ConsumerService .java" %}
 ```java
@@ -472,6 +476,8 @@ spring.jpa.hibernate.ddl-auto=create-drop
 
 ### Test d'intégration Consumer
 
+Pour vérifier que notre `ConsumerService` fonctionne correctement. On crée un producer qui va servir dans uniquement dans le cadre du test à publié un objet `ExampleDTO` sur le topic `TOPIC_EXAMPLE`. On sait que notre `ConsumerService` est responsable de sauvegarder dans la base de données. On va donc vérifier en base si l'`ExampleDTO` envoyé précédemment à bien été enregistré. Pour vérifier de façon asynchrone on utilise la librairie `Awaitility`.
+
 {% code title="ConsumerServiceIntegrationTest.java" %}
 ```java
 package com.example.integrationtestspringkafka.service;
@@ -564,6 +570,8 @@ public class ConsumerServiceIntegrationTest {
 {% endcode %}
 
 ### Test d'intégration Producer
+
+Pour vérifier que notre `ProducerService` à bien publié un objet `ExampleDTO` sur le topic `TOPIC_EXAMPLE_EXTERNE`. On crée un consumer dans qui va servir uniquement dans le cadre du test à écouter le topic `TOPIC_EXAMPLE_EXTERNE` afin de vérifier si un objet `ExampleDTO` à bien été envoyé dessus. On vérifie ensuite que l'objet reçu correspond bien à celui qu'on à envoyé précédemment.
 
 {% code title="ProducerServiceIntegrationTest.java" %}
 ```java
