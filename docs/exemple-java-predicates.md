@@ -4,7 +4,13 @@
 
 Github sources :
 
-* [https://github.com/Kevded/demo-java-predicates](https://github.com/Kevded/demo-java-predicates)
+* [github.com/Kevded/demo-java-predicates](https://github.com/Kevded/demo-java-predicates)
+
+
+
+{% page-ref page="test-dintegration-avec-spring-kafka.md" %}
+
+
 
 
 
