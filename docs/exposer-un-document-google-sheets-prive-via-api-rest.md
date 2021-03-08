@@ -27,7 +27,7 @@ Prérequis :
 
 Une fois déployé une URL est généré vous pouvez copier/coller l'URL dans votre navigateur pour afficher les résultats.
 
-[Lien du workflow pipedream](https://pipedream.com/@kevded/get-total-filled-rows-google-sheets-public-p_n1CKnZJ)
+[Lien du workflow pipedream](https://pipedream.com/@kevded/get-count-filled-rows-and-expose-values-google-sheets-public-p_n1CKnZJ)
 
 
 
