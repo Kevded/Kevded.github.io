@@ -9,4 +9,5 @@
 * [Firebase Auth onAuthStateChanged avec Stenciljs](firebase-auth-onauthstatechanged.md)
 * [Test d'intégration avec Spring Boot et Kafka](test-dintegration-avec-spring-kafka.md)
 * [Exemple Java Predicates](exemple-java-predicates.md)
+* [Exposer un document Google Sheets privé via API REST](exposer-un-document-google-sheets-prive-via-api-rest.md)
 
